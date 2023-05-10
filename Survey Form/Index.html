@@ -5,9 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <!-- Titulo y Descripcion -->
    <h1 id="title">freeCodeCamp Survey Form</h1>
-   
+   <p id="description">Thank you for taking the time to help us improve the platform.</p>
+   <div>
+    <!-- Creacion del Forumlario -->
+    <form id="survey-form" action="">
+        <!--Pregunta #1 Nombre-->
+
+        <label id="name-label">Name</label>
+        <input type ="text" required id="name" placeholder="Enter your name"></input>
+
+        <!--Pregunta #2 Email-->
+
+        <label id="email-label">Email</label>
+        <input id="email" placeholder="Enter your email" required type="email"></input>
+
+        <!--Pregunta #3 Edad (Optional)-->
+
+        <label id="number-label">Age(optional)</label>
+        <input id="number" placeholder="Age" required type="number"min=0 max=120></input>
+
+        <!--Pregunta #4 (Multiple select)-->
+
+        <label id="dropdown-label">Which option best describes your current role?</label>
+        <select id="dropdown" required>
+          <option disable select value>Select current role</option>
+          <option>Student</option>
+          <option>Full time Job</option>
+          <option>Full time Learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+        </select>
+
+        <!--Pregunta #6 (Multiple select)--> 
+
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <input id="Q-6-1" name="user-recommend" value="Definitely" type="radio">Definitely</input>
+        <input id="Q-6-2" name="user-recommend" value="Maybe" type="radio">Maybe</input>
+        <input id="Q-6-3" name="user-recommend" value="Not sure" type="radio">Not sure</input>
+
+        <!--Pregunta #7 (Multiple select)-->
+
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select id="dropdown" required>
+            <option disable select value>Select an option</option>
+            <option>Challengues</option>
+            <option>Proyects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+
+        <!--Pregunta #8 (Multiple select)-->
+
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <input name ="user-recommend" value="Front-end" type="checkbox">Front-end Projects</input>
+        <input name ="user-recommend" value="Back-end" type="checkbox">Back-end Projects</input>
+        <input name ="user-recommend" value="Data" type="checkbox">Data Visualization</input>
+        <input name ="user-recommend" value="Challengues" type="checkbox">Challenges</input>
+        <input name ="user-recommend" value="Open Source" type="checkbox">Open Source Community</input>
+        <input name ="user-recommend" value="Giter" type="checkbox">Gitter help rooms</input>
+        <input name ="user-recommend" value="Videos" type="checkbox">Videos</input>
+        <input name ="user-recommend" value="City" type="checkbox">City Meetups</input>
+        <input name ="user-recommend" value="Wiki" type="checkbox">Wiki</input>
+        <input name ="user-recommend" value="Forum" type="checkbox">Forum</input>
+        <input name ="user-recommend" value="Additional Courses" type="checkbox">Additional Courses</input>
+
+
+
+        <!--Pregunta #9 (Multiple select)-->
+
+        <label id="comment-label">Any comments or suggestions?</label>
+        <textarea></textarea>
+        <input type="submit" id="submit"></input>
+    </form>
+   </div>
 </body>
 </html>
