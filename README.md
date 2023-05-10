@@ -7,4 +7,6 @@ este repositorio muestra un formulario simple que consta de ocho preguntas de la
 
 ese es todo el contenido que podra apreciar en este repositorio.
 Muchas Gracias por leer.
-![](Captura de pantalla 2023-05-10 163930.png)
+
+PostData: Aprecio las criticas, me ayudan a mejorar.
+
