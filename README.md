@@ -7,3 +7,4 @@ este repositorio muestra un formulario simple que consta de ocho preguntas de la
 
 ese es todo el contenido que podra apreciar en este repositorio.
 Muchas Gracias por leer.
+![](ubicacion_de_la_imagen){width=width height=height}
